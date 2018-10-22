@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2962505E217D530300EA6164 /* RepoRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962505D217D530300EA6164 /* RepoRoute.swift */; };
 		29B205CB217ABFB000E4DD9F /* GitHawkRoutes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B205C1217ABFAF00E4DD9F /* GitHawkRoutes.framework */; };
 		29B205D0217ABFB000E4DD9F /* GitHawkRoutesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B205CF217ABFB000E4DD9F /* GitHawkRoutesTests.swift */; };
 		29B205D2217ABFB000E4DD9F /* GitHawkRoutes.h in Headers */ = {isa = PBXBuildFile; fileRef = 29B205C4217ABFAF00E4DD9F /* GitHawkRoutes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29B205E1217AC01600E4DD9F /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B205DB217AC01600E4DD9F /* Routable.swift */; };
 		29B205E2217AC01600E4DD9F /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B205DB217AC01600E4DD9F /* Routable.swift */; };
-		29B205E3217AC01600E4DD9F /* IssueNotificationRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B205DC217AC01600E4DD9F /* IssueNotificationRoute.swift */; };
-		29B205E4217AC01600E4DD9F /* IssueNotificationRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B205DC217AC01600E4DD9F /* IssueNotificationRoute.swift */; };
+		29B205E3217AC01600E4DD9F /* IssueRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B205DC217AC01600E4DD9F /* IssueRoute.swift */; };
+		29B205E4217AC01600E4DD9F /* IssueRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B205DC217AC01600E4DD9F /* IssueRoute.swift */; };
 		29B205E5217AC01600E4DD9F /* SearchShortcutRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B205DD217AC01600E4DD9F /* SearchShortcutRoute.swift */; };
 		29B205E6217AC01600E4DD9F /* SearchShortcutRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B205DD217AC01600E4DD9F /* SearchShortcutRoute.swift */; };
 		29B205E9217AC01600E4DD9F /* BookmarkShortcutRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B205DF217AC01600E4DD9F /* BookmarkShortcutRoute.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2962505D217D530300EA6164 /* RepoRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoRoute.swift; sourceTree = "<group>"; };
 		29B205C1217ABFAF00E4DD9F /* GitHawkRoutes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GitHawkRoutes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B205C4217ABFAF00E4DD9F /* GitHawkRoutes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitHawkRoutes.h; sourceTree = "<group>"; };
 		29B205C5217ABFAF00E4DD9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,7 +44,7 @@
 		29B205CF217ABFB000E4DD9F /* GitHawkRoutesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHawkRoutesTests.swift; sourceTree = "<group>"; };
 		29B205D1217ABFB000E4DD9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29B205DB217AC01600E4DD9F /* Routable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
-		29B205DC217AC01600E4DD9F /* IssueNotificationRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueNotificationRoute.swift; sourceTree = "<group>"; };
+		29B205DC217AC01600E4DD9F /* IssueRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueRoute.swift; sourceTree = "<group>"; };
 		29B205DD217AC01600E4DD9F /* SearchShortcutRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchShortcutRoute.swift; sourceTree = "<group>"; };
 		29B205DF217AC01600E4DD9F /* BookmarkShortcutRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkShortcutRoute.swift; sourceTree = "<group>"; };
 		29B205E0217AC01600E4DD9F /* SwitchAccountShortcutRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchAccountShortcutRoute.swift; sourceTree = "<group>"; };
@@ -92,11 +94,12 @@
 				29B205DF217AC01600E4DD9F /* BookmarkShortcutRoute.swift */,
 				29B205C4217ABFAF00E4DD9F /* GitHawkRoutes.h */,
 				29B205C5217ABFAF00E4DD9F /* Info.plist */,
-				29B205DC217AC01600E4DD9F /* IssueNotificationRoute.swift */,
+				29B205DC217AC01600E4DD9F /* IssueRoute.swift */,
+				2962505D217D530300EA6164 /* RepoRoute.swift */,
 				29B205DB217AC01600E4DD9F /* Routable.swift */,
-				29B205ED217ACA3700E4DD9F /* UIApplication+Routable.swift */,
 				29B205DD217AC01600E4DD9F /* SearchShortcutRoute.swift */,
 				29B205E0217AC01600E4DD9F /* SwitchAccountShortcutRoute.swift */,
+				29B205ED217ACA3700E4DD9F /* UIApplication+Routable.swift */,
 			);
 			path = GitHawkRoutes;
 			sourceTree = "<group>";
@@ -222,7 +225,8 @@
 				29B205EE217ACA3700E4DD9F /* UIApplication+Routable.swift in Sources */,
 				29B205EB217AC01600E4DD9F /* SwitchAccountShortcutRoute.swift in Sources */,
 				29B205E5217AC01600E4DD9F /* SearchShortcutRoute.swift in Sources */,
-				29B205E3217AC01600E4DD9F /* IssueNotificationRoute.swift in Sources */,
+				2962505E217D530300EA6164 /* RepoRoute.swift in Sources */,
+				29B205E3217AC01600E4DD9F /* IssueRoute.swift in Sources */,
 				29B205E1217AC01600E4DD9F /* Routable.swift in Sources */,
 				29B205E9217AC01600E4DD9F /* BookmarkShortcutRoute.swift in Sources */,
 			);
@@ -237,7 +241,7 @@
 				29B205EC217AC01600E4DD9F /* SwitchAccountShortcutRoute.swift in Sources */,
 				29B205EA217AC01600E4DD9F /* BookmarkShortcutRoute.swift in Sources */,
 				29B205E2217AC01600E4DD9F /* Routable.swift in Sources */,
-				29B205E4217AC01600E4DD9F /* IssueNotificationRoute.swift in Sources */,
+				29B205E4217AC01600E4DD9F /* IssueRoute.swift in Sources */,
 				29B205EF217ACA3700E4DD9F /* UIApplication+Routable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
