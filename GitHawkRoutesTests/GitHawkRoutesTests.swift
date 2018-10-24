@@ -11,6 +11,15 @@ import XCTest
 
 class GitHawkRoutesTests: XCTestCase {
 
-    
+    func testRepo() {
+        let repo = RepoRoute(
+            owner: "GitHawkApp",
+            repo: "GitHawk",
+            branch: "master"
+        )
+        let url = URL.from(githawk: repo)
+        
+        XCTAssertNotNil(url)
+    }
 
 }
