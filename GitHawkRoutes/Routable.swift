@@ -14,8 +14,8 @@ public protocol Routable {
     static var path: String { get }
 }
 
-public extension URL {
-    public static func from<T: Routable>(githawk route: T) -> URL? {
+internal extension URL {
+    internal static func from<T: Routable>(githawk route: T) -> URL? {
         var components = URLComponents()
         components.scheme = "freetime"
         components.host = T.path
