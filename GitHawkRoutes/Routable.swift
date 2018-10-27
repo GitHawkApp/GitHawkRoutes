@@ -17,9 +17,9 @@ public protocol Routable {
 public extension URL {
     public static func from<T: Routable>(githawk route: T) -> URL? {
         var components = URLComponents()
-        components.host = "freetime"
+        components.scheme = "freetime"
+        components.host = T.path
         components.queryItems = route.encoded.map(URLQueryItem.init)
-        components.path = T.path
         return components.url
     }
 }
