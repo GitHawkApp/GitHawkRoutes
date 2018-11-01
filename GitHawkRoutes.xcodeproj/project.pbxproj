@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2962505E217D530300EA6164 /* RepoRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962505D217D530300EA6164 /* RepoRoute.swift */; };
+		29695E93218A9FB800577363 /* URL+Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29695E92218A9FB800577363 /* URL+Routable.swift */; };
+		29695E94218AA0B700577363 /* URL+Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29695E92218A9FB800577363 /* URL+Routable.swift */; };
 		29B205CB217ABFB000E4DD9F /* GitHawkRoutes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B205C1217ABFAF00E4DD9F /* GitHawkRoutes.framework */; };
 		29B205D0217ABFB000E4DD9F /* GitHawkRoutesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B205CF217ABFB000E4DD9F /* GitHawkRoutesTests.swift */; };
 		29B205D2217ABFB000E4DD9F /* GitHawkRoutes.h in Headers */ = {isa = PBXBuildFile; fileRef = 29B205C4217ABFAF00E4DD9F /* GitHawkRoutes.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		2962505D217D530300EA6164 /* RepoRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoRoute.swift; sourceTree = "<group>"; };
+		29695E92218A9FB800577363 /* URL+Routable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Routable.swift"; sourceTree = "<group>"; };
 		29B205C1217ABFAF00E4DD9F /* GitHawkRoutes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GitHawkRoutes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B205C4217ABFAF00E4DD9F /* GitHawkRoutes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitHawkRoutes.h; sourceTree = "<group>"; };
 		29B205C5217ABFAF00E4DD9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,6 +103,7 @@
 				29B205DD217AC01600E4DD9F /* SearchShortcutRoute.swift */,
 				29B205E0217AC01600E4DD9F /* SwitchAccountShortcutRoute.swift */,
 				29B205ED217ACA3700E4DD9F /* UIApplication+Routable.swift */,
+				29695E92218A9FB800577363 /* URL+Routable.swift */,
 			);
 			path = GitHawkRoutes;
 			sourceTree = "<group>";
@@ -223,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29B205EE217ACA3700E4DD9F /* UIApplication+Routable.swift in Sources */,
+				29695E93218A9FB800577363 /* URL+Routable.swift in Sources */,
 				29B205EB217AC01600E4DD9F /* SwitchAccountShortcutRoute.swift in Sources */,
 				29B205E5217AC01600E4DD9F /* SearchShortcutRoute.swift in Sources */,
 				2962505E217D530300EA6164 /* RepoRoute.swift in Sources */,
@@ -237,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29B205D0217ABFB000E4DD9F /* GitHawkRoutesTests.swift in Sources */,
+				29695E94218AA0B700577363 /* URL+Routable.swift in Sources */,
 				29B205E6217AC01600E4DD9F /* SearchShortcutRoute.swift in Sources */,
 				29B205EC217AC01600E4DD9F /* SwitchAccountShortcutRoute.swift in Sources */,
 				29B205EA217AC01600E4DD9F /* BookmarkShortcutRoute.swift in Sources */,

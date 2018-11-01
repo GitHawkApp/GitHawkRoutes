@@ -21,7 +21,7 @@ class GitHawkRoutesTests: XCTestCase {
         let components = URLComponents(url: url, resolvingAgainstBaseURL: false)!
         
         XCTAssertEqual("freetime", components.scheme)
-        XCTAssertEqual("com.githawk.repo", components.host)
+        XCTAssertEqual("RepoRoute", components.host)
         XCTAssertEqual("GitHawkApp", components.queryItems?.first(where: { $0.name == "owner"})!.value)
         XCTAssertEqual("GitHawk", components.queryItems?.first(where: { $0.name == "repo"})!.value)
         XCTAssertEqual("master", components.queryItems?.first(where: { $0.name == "branch"})!.value)
