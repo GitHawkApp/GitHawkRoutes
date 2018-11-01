@@ -13,3 +13,13 @@ public protocol Routable {
     var encoded: [String: String] { get }
     static var path: String { get }
 }
+
+internal extension URL {
+    internal static func from<T: Routable>(githawk route: T) -> URL? {
+        var components = URLComponents()
+        components.scheme = "freetime"
+        components.host = T.path
+        components.queryItems = route.encoded.map(URLQueryItem.init)
+        return components.url
+    }
+}
