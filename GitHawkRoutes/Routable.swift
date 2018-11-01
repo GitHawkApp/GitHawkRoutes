@@ -11,15 +11,14 @@ import Foundation
 public protocol Routable {
     static func from(params: [String: String]) -> Self?
     var encoded: [String: String] { get }
-    static var path: String { get }
 }
 
-internal extension URL {
-    internal static func from<T: Routable>(githawk route: T) -> URL? {
-        var components = URLComponents()
-        components.scheme = "freetime"
-        components.host = T.path
-        components.queryItems = route.encoded.map(URLQueryItem.init)
-        return components.url
+extension Routable {
+
+    static var path: String {
+        return String(describing: self)
     }
+
+    public var encoded: [String: String] { return [:] }
+
 }
