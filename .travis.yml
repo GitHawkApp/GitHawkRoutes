@@ -2,5 +2,3 @@ language: swift
 osx_image: xcode10
 script:
   - xcodebuild clean -project GitHawkRoutes.xcodeproj -scheme GitHawkRoutes -destination "platform=iOS Simulator,name=iPhone X,OS=12.0" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet
-
-  
